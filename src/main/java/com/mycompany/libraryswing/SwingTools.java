@@ -2,10 +2,9 @@ package com.mycompany.libraryswing;
 
 import java.awt.*;
 
-
 /**
  *
- * @author javafish
+ * @author Ellina
  */
 public final class SwingTools {
     

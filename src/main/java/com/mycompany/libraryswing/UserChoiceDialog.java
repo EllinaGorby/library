@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JDialog.java to edit this template
- */
 package com.mycompany.libraryswing;
 
 import com.mycompany.model.Library;
@@ -20,22 +16,24 @@ import javax.swing.WindowConstants;
 
 /**
  *
- * @author anton
+ * @author Ellina class represents a dialog that allows the user(reader) to
+ * login.
+ *
  */
 public class UserChoiceDialog extends javax.swing.JDialog {
-    Library l;
-    private boolean ok;
+
+    Library l;  // the library object, library object with which our library with books and readers will be immetated
+    private boolean ok; // OK button pressed
 
     /**
      * Creates new form UserChoiceDialog
      */
-    
     public UserChoiceDialog(Frame parent, Library library) {
         super(parent, true);
         initComponents();
         setLocationRelativeTo(parent);
         l = library;
-        if (l.getCurrentReader()== null) {
+        if (l.getCurrentReader() == null) {
             buttonCencel.setEnabled(false);
         }
         // temporarily for demonstration
@@ -142,7 +140,9 @@ public class UserChoiceDialog extends javax.swing.JDialog {
     private void buttonCencelActionPerformed(ActionEvent evt) {//GEN-FIRST:event_buttonCencelActionPerformed
         dispose();
     }//GEN-LAST:event_buttonCencelActionPerformed
-
+    /** temporarily for demonstration, 
+    * displays a list of readers with logins and passwords in the console, so that it is more convenient to test the program.
+    */
     private void buttonHelpActionPerformed(ActionEvent evt) {//GEN-FIRST:event_buttonHelpActionPerformed
         l.getListReaders().forEach(r -> System.out.println(r.showReadersWithAuthorization()));
     }//GEN-LAST:event_buttonHelpActionPerformed
@@ -150,29 +150,24 @@ public class UserChoiceDialog extends javax.swing.JDialog {
     private void buttonOkActionPerformed(ActionEvent evt) {//GEN-FIRST:event_buttonOkActionPerformed
         System.out.println(textFieldLogin.getText() + " " + textFieldPass.getSelectedText());
         char[] password = textFieldPass.getPassword();
-//        System.out.println(Arrays.toString(password).toString());
-        
-       if(l.chooseCurReader(textFieldLogin.getText(), textFieldPass.getPassword())) {
-           
-           System.out.println("buttonOkActionPerformed"+l.getCurrentReader());
-           ok = true;
-           dispose();
-           
-       }
-           
+
+        if (l.chooseCurReader(textFieldLogin.getText(), textFieldPass.getPassword())) {
+
+            System.out.println("buttonOkActionPerformed" + l.getCurrentReader());
+            ok = true;
+            dispose();
+        }
     }//GEN-LAST:event_buttonOkActionPerformed
 
     public Reader showDialog() {
         setVisible(true);
         return ok ? l.getCurrentReader() : null;
-        
-      
     }
-    
+
     /**
      * @param args the command line arguments
      */
-    
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private JButton buttonCencel;
     private JButton buttonClear;

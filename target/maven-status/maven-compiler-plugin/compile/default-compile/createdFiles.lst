@@ -9,6 +9,7 @@ com\mycompany\libraryswing\UserChoiceDialog.class
 com\mycompany\libraryswing\LibraryGui$3.class
 com\mycompany\libraryswing\ListModelUsersBooks.class
 com\mycompany\libraryswing\Sort.class
+.netbeans_automatic_build
 com\mycompany\model\Reader.class
 com\mycompany\libraryswing\LibraryGui$2.class
 com\mycompany\libraryswing\SwingTools.class

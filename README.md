@@ -3,7 +3,7 @@
 
 ---
 
-##In dieser Anwendung wurden folgende Technologien und Bibliotheken verwendet:
+## In dieser Anwendung wurden folgende Technologien und Bibliotheken verwendet:
 
 - __Java Swing__
 - __Event Handling__
@@ -27,7 +27,7 @@ Die gemeinsamen Merkmale der Anwendung sind die Verwendung von Java Swing zur Er
 
 5. **Sortierung**: Die Anwendung unterstützt das Sortieren von Büchern nach Autor, Genre oder gar keinem Sortieren. Der Benutzer kann die Sortieroption mithilfe von Optionsfeldern auswählen.
 
-
+---
 
    ## Kurze Userseinleitung.
 

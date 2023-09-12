@@ -3,6 +3,18 @@
 
 ---
 
+1. **Initialisierung**: Die Anwendung initialisiert ein Bibliotheksobjekt (Library l) und generiert einige Testdaten dafür mithilfe der Methode generatorList. Sie initialisiert auch Tabellenmodelle und andere UI-Komponenten.
+
+2. **UI-Komponenten**: Die Anwendung erstellt eine grafische Benutzeroberfläche (GUI) mit verschiedenen Komponenten, darunter Beschriftungen, Schaltflächen, Optionsfelder, Listen und Tabellen. Diese Komponenten werden verwendet, um mit den Daten der Bibliothek zu interagieren.
+
+3. **Listener**: Mehrere Action-Listener werden den UI-Komponenten hinzugefügt, um Benutzerinteraktionen zu behandeln. 
+
+4. **Tabellenmodelle**: Zwei Tabellenmodelle (BookTableModel und ListModelUsersBooks) werden verwendet, um Daten in den Tabellen anzuzeigen. Die Daten enthalten Informationen über Bücher und die von der aktuellen Benutzerin oder dem aktuellen Benutzer ausgeliehenen Bücher.
+
+5. **Sortierung**: Die Anwendung unterstützt das Sortieren von Büchern nach Autor, Genre oder gar keinem Sortieren. Der Benutzer kann die Sortieroption mithilfe von Optionsfeldern auswählen.
+
+   ### Kurze Einleitung.
+
 Nach dem Start der Anwendung erscheint das "Loginformular" (Loginform).
 
 ![___Loginformular___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_Login0.jpg)

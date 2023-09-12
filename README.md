@@ -3,6 +3,20 @@
 
 ---
 
+##In dieser Anwendung wurden folgende Technologien und Bibliotheken verwendet:
+
+- __Java Swing__
+- __Event Handling__
+- __Tabellen- und Listenmodelle__: Spezielle Datenmodelle wie BookTableModel und ListModelUsersBooks (Interfaces - AbstractTableModel und AbstractListModel) werden verwendet, um Daten in Tabellen (JTable) und Listen (JList) anzuzeigen. Diese Modelle sind so konfiguriert, dass sie mit den Swing-GUI-Komponenten arbeiten.
+- __Fake Librery__ 
+
+
+Die gemeinsamen Merkmale der Anwendung sind die Verwendung von Java Swing zur Erstellung der grafischen Benutzeroberfläche und zur Ereignisverarbeitung sowie die Arbeit mit Daten, die von Java-Kollektionen und anderen Datenstrukturen bereitgestellt werden.
+
+---
+
+## Anwendungsfunktionen und -komponenten
+
 1. **Initialisierung**: Die Anwendung initialisiert ein Bibliotheksobjekt (Library l) und generiert einige Testdaten dafür mithilfe der Methode generatorList. Sie initialisiert auch Tabellenmodelle und andere UI-Komponenten.
 
 2. **UI-Komponenten**: Die Anwendung erstellt eine grafische Benutzeroberfläche (GUI) mit verschiedenen Komponenten, darunter Beschriftungen, Schaltflächen, Optionsfelder, Listen und Tabellen. Diese Komponenten werden verwendet, um mit den Daten der Bibliothek zu interagieren.
@@ -13,7 +27,9 @@
 
 5. **Sortierung**: Die Anwendung unterstützt das Sortieren von Büchern nach Autor, Genre oder gar keinem Sortieren. Der Benutzer kann die Sortieroption mithilfe von Optionsfeldern auswählen.
 
-   ### Kurze Einleitung.
+
+
+   ## Kurze Userseinleitung.
 
 Nach dem Start der Anwendung erscheint das "Loginformular" (Loginform).
 
@@ -27,7 +43,7 @@ Bei Betätigung der Hilfstaste wird die generierte Information in der Konsole an
 
 ![___in der Konsole___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_generated_daten.jpg)
 
-NNach der Auswahl des erforderlichen Benutzers wird das Hauptfenster der Anwendung angezeigt, auf dem man ausgeliehene Bücher und Bücher in der Bibliothek sehen kann:
+Nach der Auswahl des erforderlichen Benutzers wird das Hauptfenster der Anwendung angezeigt, auf dem man ausgeliehene Bücher und Bücher in der Bibliothek sehen kann:
 
 ![___Hauptfenster___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_Hauptfenster.png)
 

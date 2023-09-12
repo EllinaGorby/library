@@ -11,7 +11,7 @@ Für die Erleichterung des Testens generiert der Programm mit Hilfe __Faker-Libr
 
 Bei der Hilfstaste kommt die generierte Information im Konsol. 
 
-![___Information im Konsol___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot%20Screenshot_generated_daten.jpg)
+![___Information im Konsol___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_generated_daten.jpg)
 
 Nach der Wahl notwendiges Benutzers angezeigt Hautpfenster des Apps:
 

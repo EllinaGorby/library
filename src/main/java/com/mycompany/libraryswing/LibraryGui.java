@@ -220,24 +220,12 @@ public class LibraryGui extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void radioButtonWithoutSortActionPerformed(ActionEvent evt) {//GEN-FIRST:event_radioButtonWithoutSortActionPerformed
-//        showBooks = l.getListBook();
-//        List<Book> showBooks = l.getListBooks()
-//                .stream()
-//                .filter(b -> b.getReader() == null)
-//                .collect(Collectors.toList());
-//        tmb.getBooksInTable(showBooks);
-//        System.out.println(buttonSort.getButtonCount());
+
           tmb.getBooksInTable(l.getListBooks());
     }//GEN-LAST:event_radioButtonWithoutSortActionPerformed
 
     private void radioButtonSortAutActionPerformed(ActionEvent evt) {//GEN-FIRST:event_radioButtonSortAutActionPerformed
-//        List<Book> showBooks = l.getListBooks()
-//                .stream()
-//                .filter(b -> b.getReader() == null)
-//                .sorted((b1, b2) -> b1.getAuthor().compareTo(b2.getAuthor()))
-//                .collect(Collectors.toList());
-//        tmb.getBooksInTable(showBooks);
-//        System.out.println(buttonSort.getButtonCount());
+
         tmb.sortAutor();
     }//GEN-LAST:event_radioButtonSortAutActionPerformed
 
@@ -256,13 +244,7 @@ public class LibraryGui extends javax.swing.JFrame {
     }//GEN-LAST:event_buttonGenerateActionPerformed
 
     private void radioButtonSortGenreActionPerformed(ActionEvent evt) {//GEN-FIRST:event_radioButtonSortGenreActionPerformed
-//        List<Book> showBooks = l.getListBooks()
-//                .stream()
-//                .filter(b -> b.getReader() == null)
-//                .sorted((b1, b2) -> b1.getGenre().compareTo(b2.getGenre()))
-//                .collect(Collectors.toList());
-//        tmb.getBooksInTable(showBooks);
-//        System.out.println(buttonSort.getButtonCount());
+
         tmb.sortGenre();
     }//GEN-LAST:event_radioButtonSortGenreActionPerformed
 
@@ -314,7 +296,6 @@ public class LibraryGui extends javax.swing.JFrame {
     private void showBooksInLibrary(){
         
     }
-
 
     /**
      * @param args the command line arguments

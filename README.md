@@ -13,9 +13,28 @@ Bei der Hilfstaste kommt die generierte Information im Konsol.
 
 ![___Information im Konsol___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_generated_daten.jpg)
 
-Nach der Wahl notwendiges Benutzers angezeigt Hautpfenster des Apps:
+Nach der Wahl notwendiges Benutzers angezeigt Hautpfenster des Apps, wo man mitgenohmene Bücher und Bücher in Bücherei sehen kann:
 
 ![___Loginform___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_Hauptfenster.png)
+
+Dazu realisirt Sortierung:
+
+![___Benutzer wechseln___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_Sortirung.jpg)
+
+Hier giebt es Möglichkeit eie Buch zu wählen und mitzunehmen.
+
+![___Buch wählen und mitnehmen___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_Hauptfenster3k.jpg)
+
+![___Buch wählen und mitnehmen___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_Hauptfenster4.jpg)
+
+Und auch zurück geben:
+
+![___Buch zurück geben___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_Hauptfenster5.jpg)
+
+Es gibt eine Möglichkeit Benutzer zu wechseln:
+
+![___Benutzer wechseln___](https://github.com/EllinaGorby/library/blob/main/Screenshot/Screenshot_Hauptfenster7.jpg)
+
 
 
 
